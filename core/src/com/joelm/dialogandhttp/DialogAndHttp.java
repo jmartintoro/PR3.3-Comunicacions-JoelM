@@ -19,7 +19,7 @@ public class DialogAndHttp extends ApplicationAdapter {
 	Skin skin;
 	Stage stage;
 	HttpRequestBuilder requestBuilder = new HttpRequestBuilder();
-	Net.HttpRequest httpRequest = requestBuilder.newRequest().method(Net.HttpMethods.GET).url("https://www.google.es").build();
+	Net.HttpRequest httpRequest = requestBuilder.newRequest().method(Net.HttpMethods.GET).url("https://www.google.com").build();
 	Net.HttpResponseListener listener = new Net.HttpResponseListener() {
 		@Override
 		public void handleHttpResponse(Net.HttpResponse httpResponse) {
